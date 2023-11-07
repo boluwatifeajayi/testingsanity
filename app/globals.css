@@ -1,3 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Noto+Sans&family=Outfit&family=Poppins&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  font-family: 'Outfit', sans-serif;                                          
+}
+
+.primary-text{
+  color: #0129A4;
+}
+
+.primary-bg{
+  background-color: #0129A4;
+}
+
+.form{
+  align-items: center;
+  justify-content: center;
+}
+
+.heading{
+  color: #18254A;
+}
+
+.other-dark-bg{
+  background-color: #18254A;
+}
+
+.header-scroll{
+  background-color: #03193c;
+}
+
+.hero{
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.nav{
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.plane-img{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-floating {
+  animation: floating 2s ease-in-out infinite;
+}
+
+.vis{
+  display: none;
+}
+
+@media (max-width: 800px){
+  .inv{
+    display: none;
+  }
+  .vis{
+    display: block;
+  }
+  
+}
+
